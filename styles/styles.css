@@ -1,0 +1,108 @@
+html: {
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+*: {
+  box-sizing: inherit;
+}
+header {
+  background-color: lightgreen;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+nav {
+  float: right;
+
+}
+nav a {
+  padding: 5px;
+}
+.container {
+  height: 100%;
+}
+.meowcome {
+  background-color: navy;
+  height: 20%;
+  overflow:hidden;
+}
+
+.meowcome > img {
+  max-width: 60%;
+}
+
+.meowcome > h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  float: right;
+  display: block;
+  position: relative;
+  left: 60px;
+  top: 60px;
+}
+.cats {
+  background-color: yellow;
+  font-size: 20px;
+  color: black;
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
+
+h2 {
+  padding-bottom: 20px;
+  padding-top: 50px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.products {
+  background-color: lightgrey;
+  font-size: 20px;
+  color: black;
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
+
+.products img {
+  max-width: 30%;
+  border: 5px solid black;
+}
+
+p {
+  padding-bottom: 20px;
+}
+.values {
+  background-color: navy;
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
+
+.values ul {
+  text-align: center;
+}
+
+.values ul li {
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+  display: inline-block;
+  padding: 40px 60px 40px 40px;
+
+}
+
+footer {
+  background-color: lightgreen;
+  font-size: 20px;
+  padding: 30px;
+  font-weight: bold;
+  color: black;
+}
+footer span {
+  float: right;
+}
