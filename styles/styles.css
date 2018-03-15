@@ -1,17 +1,20 @@
 html: {
   box-sizing: border-box;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: sans-serif;
+
 }
 
 *: {
   box-sizing: inherit;
+
 }
 header {
-  background-color: lightgreen;
+  background-color: #06D6A0;
   font-size: 20px;
-  padding: 10px;
+  padding: 20px 10px;
   font-weight: bold;
   color: white;
+
 }
 
 nav {
@@ -23,29 +26,34 @@ nav a {
 }
 .container {
   height: 100%;
+  margin-right: 20%;
+  margin-left: 20%;
 }
 .meowcome {
-  background-color: navy;
+  background-color: #26547C;
   height: 20%;
-  overflow:hidden;
 }
 
 .meowcome > img {
   max-width: 60%;
+  top: 0;
 }
 
-.meowcome > h1 {
+h1 {
   color: white;
   font-size: 40px;
   font-weight: bold;
-  float: right;
-  display: block;
-  position: relative;
-  left: 60px;
-  top: 60px;
 }
+
+.welcome{
+  float: right;
+  padding: 50px;
+  display: inline-block;
+  width: 26%;
+}
+
 .cats {
-  background-color: yellow;
+  background-color: #FFD166;
   font-size: 20px;
   color: black;
   padding-left: 20px;
@@ -60,7 +68,7 @@ h2 {
 }
 
 .products {
-  background-color: lightgrey;
+  background-color: #F2F2F2;
   font-size: 20px;
   color: black;
   padding-left: 20px;
@@ -69,14 +77,16 @@ h2 {
 
 .products img {
   max-width: 30%;
-  border: 5px solid black;
+  border: 3px solid black;
+  margin-right: 13px;
+  margin-bottom: 15px;
 }
 
 p {
   padding-bottom: 20px;
 }
 .values {
-  background-color: navy;
+  background-color: #26547C;
   color: white;
   font-size: 20px;
   padding-left: 20px;
@@ -85,6 +95,7 @@ p {
 
 .values ul {
   text-align: center;
+  text-transform: uppercase;
 }
 
 .values ul li {
@@ -92,12 +103,12 @@ p {
   font-weight: bold;
   font-size: 30px;
   display: inline-block;
-  padding: 40px 60px 40px 40px;
+  padding: 40px 110px 40px 40px;
 
 }
 
 footer {
-  background-color: lightgreen;
+  background-color: #06D6A0;
   font-size: 20px;
   padding: 30px;
   font-weight: bold;
